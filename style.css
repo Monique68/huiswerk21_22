@@ -1,0 +1,48 @@
+body{
+    background-color: beige;
+}
+
+header{
+    background-color:darkgreen;
+    text-align: left;
+    padding: 16px;
+   
+}
+.navbar .navbar-nav .nav-link {
+  color: wheat; 
+}
+
+
+.navbar .navbar-nav .nav-link:hover {
+  color: yellow;
+}
+h3 {
+    color: darkgreen;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+    
+.img-thumbnail{
+    height: 125px;
+    width: 125px;
+    object-fit: cover;
+  
+}
+
+.col{
+  display: flex;
+  justify-content: center; 
+  align-items: center;  
+  padding-bottom: 25px;   
+
+}
+footer {
+    min-height: 200px;
+    background-color: darkgreen;
+    color: wheat;
+    text-align: end;
+    padding-right:  16px;
+    padding-top: 16px;
+}

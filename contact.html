@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Contact</title>
+    <style>
+    .navbar-nav .nav-link:hover {
+    color: yellow !important; 
+    }
+    </style>
+  </head>
+  <body class="container-sm" style="background-color: beige">
+   <header class="h-125 p-3" style="background-color: darkgreen">
+    <nav class="navbar navbar-expand-sm">
+       <div class="collapse navbar-collapse">
+      <ul class="navbar-nav me-auto mb-2">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html" style="color: wheat;">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="overmij.html" style="color: wheat;">Over mij</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" style="color: wheat;">Contact</a>
+        </li>
+      </ul>
+    </div>
+        </nav>
+    </header>
+     
+    <div>
+       <div class="container mt-5">
+        <div class="row justify-content-center">
+                <div class="col-12 col-sm-6">            
+                <h2 class="text-center mb-4" style="color: darkgreen">Contactformulier</h2>
+                <form id="Contactform" action="https://formspree.io/f/mzezkqgq" method="post" class="label" style="color: darkgreen">
+                  <!--Naam veld-->
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Uw naam</label>
+                        <input type="text" id="name" name="name" placeholder="Uw volledige naam" required class="form-control focus-ring" style="--bs-focus-ring-color: rgba(0, 100, 0, 1)"> 
+                    </div>
+                    <!--email veld-->
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Uw e-mailadres</label>
+                        <input type="email" id="email" class="form-control focus-ring" name="_replyto" placeholder="naam@voorbeeld.com" required style="--bs-focus-ring-color: rgba(0, 100, 0, 1)">
+                        <div class="invalid-feedback">Voer alstublieft een geldig e-mailadres in.</div>
+                      </div>
+                      <!--Uw bericht-->
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Uw Bericht</label>
+                        <textarea class="form-control focus-ring" style="--bs-focus-ring-color: rgba(0, 100, 0, 1)" id="message" name="mesage" rows="4" placeholder="Uw bericht..." required></textarea>
+                    </div>
+                    <!--verzendknop-->
+                    <div class="d-flex justify-content-center">
+                      <input type="text" name="_gotcha" style="display: none;">
+                    <button type="submit" class="btn btn-outline-danger  w-50 mb-3">Verzenden</button>  
+                  </div>  
+              </form>
+            </div>
+        </div>
+    </div>
+</div>
+        <footer class="text-end pe-3 pt-3" style="height: 200px; color: wheat; background: darkgreen">
+        <p>&copy; 2026 Monique Pijls. Alle rechten voorbehouden.</p>
+      </footer>            
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+      </script>
+  </body>
+</html>
+
+
